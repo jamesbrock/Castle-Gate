@@ -74,9 +74,8 @@ from the values it documents. Re-run it after changing a colour.
 
 ## Wallpapers
 
-Two cuts of the same gate, both 1728×1152, 3:2. They ship in `backgrounds/`
-and cycle with `omarchy theme bg next`. A fresh `omarchy theme set` picks the
-first file.
+Three cuts of the same gate. They ship in `backgrounds/` and cycle with
+`omarchy theme bg next`. A fresh `omarchy theme set` picks the first file.
 
 ### 1 · Gate — 1728×1152, 3:2
 
@@ -89,6 +88,14 @@ The gate under the searchlight. The default.
 ![Castle Gate, dragon](backgrounds/2-castle-gate-dragon.jpg)
 
 The same gate, with a dragon coiled in the storm cloud.
+
+### 3 · Ultrawide — 2560×1080, 21:9
+
+![Castle Gate, ultrawide](backgrounds/3-castle-gate-ultrawide.jpg)
+
+The gate and the cloud dragon spread across a 21:9 panel, the native shape of
+a 2560×1080 display. The gate stays near the centre, so a taller screen that
+centre-crops this file still keeps it.
 
 Three things to know before adding your own:
 
@@ -109,8 +116,9 @@ Three things to know before adding your own:
 ```
 colors.toml          the palette, and the only file you normally edit
 backgrounds/         wallpapers, cycled with `omarchy theme bg next`
-  1-castle-gate-laptop.jpg   1728x1152, 3:2
-  2-castle-gate-dragon.jpg   1728x1152, 3:2
+  1-castle-gate-laptop.jpg      1728x1152, 3:2
+  2-castle-gate-dragon.jpg      1728x1152, 3:2
+  3-castle-gate-ultrawide.jpg   2560x1080, 21:9
 preview-unlock.png   1920x1080 preview of the boot screen
 unlock.png           Plymouth boot logo, the wordmark in violet neon
 icons.theme          GTK icon theme name
