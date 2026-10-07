@@ -1,0 +1,46 @@
+# Castle Gate
+# Palette sampled from the castle gate wallpaper: night indigo, searchlight
+# haze, and one violet neon. Every other themed config in Omarchy is generated
+# from this file via $OMARCHY_PATH/default/themed/*.tpl -- edit here, not there.
+
+mode = "dark"
+
+# Ridge neon. The loud colour is spent once, on the gate roof.
+accent    = "#AA67E8"
+selection = "#272A3D"
+muted     = "#725F8C"
+
+# Window borders. Left unset, Omarchy falls back to a hardcoded neutral grey
+# (rgba(595959aa)) for inactive windows -- the one colour this palette avoids.
+# A gradient spec is theme colour names plus an optional angle.
+hyprland_active_border   = "accent brown 45deg"
+hyprland_inactive_border = "selection"
+
+# Wet stair stone. The large darks are indigo, never neutral grey.
+background         = "#1A1A32"
+dark_background    = "#0B0B15"
+darker_background  = "#06060A"
+lighter_background = "#3D3A59"
+
+# Searchlight haze. The clipped core of the beam is nearly white; this is
+# the lavender paper around it, taken from the beam and not from #FFFFFF.
+foreground        = "#D7BDEC"
+dark_foreground   = "#7B788D"
+light_foreground  = "#DECFFA"
+bright_foreground = "#F2E3FF"
+
+red     = "#C05E9B"  # deepest billboard pink
+yellow  = "#AB9D7C"  # not in the frame; kept dull so warnings stay quiet
+orange  = "#A77E62"  # not in the frame; same reason
+green   = "#69966C"  # not in the frame; a dull green so diffs stay readable
+cyan    = "#58839D"  # night water #14252F, lifted so it reads on the stone
+blue    = "#8D90BB"  # city haze
+magenta = "#D46C9F"  # the pink signs on the right
+brown   = "#6F5092"  # deep lacquer under the neon; the quiet end of the border
+
+bright_red     = "#DD92B9"
+bright_yellow  = "#C8BA9D"
+bright_green   = "#7CAB80"
+bright_cyan    = "#7FA6BD"
+bright_blue    = "#9F97E2"
+bright_magenta = "#EF91B2"

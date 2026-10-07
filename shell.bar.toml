@@ -1,0 +1,10 @@
+# Top bar only. The rest of the shell stays generated from colors.toml.
+# 0.35 lets the wallpaper show through, the same glass weight as a light bar.
+[bar]
+background       = "#1A1A32"
+background-alpha = 0.35
+text             = "#D7BDEC"
+active           = "#C05E9B"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
